@@ -6,10 +6,10 @@ Docker image for a random json log generator, based on Alpine Linux.
 
 This image will execute a container which will generate four random log messages:
 
-* `{"@timestamp": "2018-03-02T22:33:27-06:00", "level":"ERROR", "message": "something happened in this execution."}`
-* `{"@timestamp": "2018-03-02T22:33:27-06:00", "level":"INFO", "message": "takes the value and converts it to string."}`
-* `{"@timestamp": "2018-03-02T22:33:27-06:00", "level":"WARN", "message": "variable not in use."}`
-* `{"@timestamp": "2018-03-02T22:33:27-06:00", "level":"DEBUG", "message": "first loop completed."}`
+* `{"@timestamp": "2018-03-02T22:33:27-06:00", "loglevel":"ERROR", "message": "something happened in this execution."}`
+* `{"@timestamp": "2018-03-02T22:33:27-06:00", "loglevel":"INFO", "message": "takes the value and converts it to string."}`
+* `{"@timestamp": "2018-03-02T22:33:27-06:00", "loglevel":"WARN", "message": "variable not in use."}`
+* `{"@timestamp": "2018-03-02T22:33:27-06:00", "loglevel":"DEBUG", "message": "first loop completed."}`
 
 ## Why this Image?
 
